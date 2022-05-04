@@ -16,6 +16,8 @@ import com.dio.santander.bankline.api.repository.MovimentacaoRepository;
 public class MovimentacaoService {
 	@Autowired
 	private MovimentacaoRepository repository;
+	
+	@Autowired
 	private CorrentistaRepository correntistaRepository;
 	public void save(NovaMovimentacao novaMovimentacao) {
 		Movimentacao movimentacao = new Movimentacao();

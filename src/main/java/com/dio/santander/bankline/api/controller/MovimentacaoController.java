@@ -19,7 +19,7 @@ import com.dio.santander.bankline.api.service.CorrentistaService;
 import com.dio.santander.bankline.api.service.MovimentacaoService;
 
 @RestController
-@RequestMapping("/movimentacao")
+@RequestMapping("/movimentacoes")
 public class MovimentacaoController {
 	@Autowired
 	private MovimentacaoRepository repository;
